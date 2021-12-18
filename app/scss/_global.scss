@@ -1,0 +1,41 @@
+body {
+  background-color: #000;
+}
+.container-top {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container {
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 120%;
+  @extend %pop-600;
+  background: linear-gradient(
+    97.54deg,
+    #9cabf6 3.38%,
+    #3996f4 32.51%,
+    #c2a5f8 75.84%,
+    #c295f4 100%
+  );
+  border-radius: 16px;
+  padding: 16px 32px;
+}
+.title{
+  font-size: 56px;
+  line-height: 130%;
+  @extend %neo-700;
+  color: #fff;
+}
+.mini-title{
+  display: inline-block;
+  font-size: 40px;
+  line-height: 120%;
+  @extend %neo-700;
+  color: #9CABF6;
+}
